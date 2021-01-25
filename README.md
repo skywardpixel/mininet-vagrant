@@ -22,7 +22,7 @@ Install Vagrant, and run the VM with `vagrant up`!
 
       vagrant scp :remote/path/to/file local/path/to/file
      
-  Alternatively, you can use the synced folders feature to edit files in the VM locally.
+  Alternatively, you can use the [synced folders feature](https://www.vagrantup.com/docs/synced-folders/basic_usage) to edit files in the VM locally.
 
 * To use VSCode with the Vagrant VM, first run `vagrant ssh-config` in the
   repo's directory, and then append the output to your `~/.ssh/config` file.

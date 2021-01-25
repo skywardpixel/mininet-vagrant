@@ -26,3 +26,9 @@ Install Vagrant, and run the VM with `vagrant up`!
   repo's directory, and then append the output to your `~/.ssh/config` file.
   You can rename the host as you like (change the first line to `Host mininet`).
   Then in VSCode you can connect to the `mininet` host.
+
+## Notes
+
+* Because of compatibility issues in `pox`, we are stuck with Python 2 for now.
+  We use the `fangtooth` version of `pox` and version `2.3.0d6` of Mininet.
+

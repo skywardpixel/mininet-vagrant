@@ -33,4 +33,9 @@ Install Vagrant, and run the VM with `vagrant up`!
 
 * Because of compatibility issues in `pox`, we are stuck with Python 2 for now.
   We use the `fangtooth` version of `pox` and version `2.3.0d6` of Mininet.
+* If you are located in China and experience difficulty downloading Vagrant boxes, you can use
+  [Tsinghua University's mirror](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cloud-images/focal/current/).
+  Simply run the following command before executing `vagrant up`:
+  
+      vagrant box add https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cloud-images/focal/current/focal-server-cloudimg-amd64-vagrant.box --name ubuntu/focal64
 

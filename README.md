@@ -9,7 +9,7 @@ Install Vagrant, and run the VM with `vagrant up`!
 * Clone this repo and `cd` into the directory.
 * Run `vagrant up`. This should set up your VM in a few minutes.
 * Run `vagrant ssh` in the directory to SSH into the VM.
-* If you need to copy files from/to the VM, you can use the [vagrant-ssh](https://github.com/invernizzi/vagrant-scp)
+* If you need to copy files from/to the VM, you can use the [vagrant-scp](https://github.com/invernizzi/vagrant-scp)
   plugin: install with 
       
       vagrant plugin install vagrant-scp

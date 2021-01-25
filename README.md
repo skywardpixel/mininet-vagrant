@@ -4,7 +4,8 @@ Install Vagrant, and run the VM with `vagrant up`!
 
 ## Usage
 
-* Install Vagrant. If you are using Homebrew on macOS, just use `brew install vagrant`.
+* Install [Vagrant](https://www.vagrantup.com/downloads).
+  If you are using Homebrew on macOS, you can simply run `brew install vagrant`.
 * Clone this repo and `cd` into the directory.
 * Run `vagrant up`. This should set up your VM in a few minutes.
 * Run `vagrant ssh` in the directory to SSH into the VM.

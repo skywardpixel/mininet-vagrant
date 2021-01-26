@@ -6,7 +6,9 @@ Install Vagrant, and run the VM with `vagrant up`!
 
 * Install [Vagrant](https://www.vagrantup.com/downloads).
   If you are using Homebrew on macOS, you can simply run `brew install vagrant`.
-* Clone this repo and `cd` into the directory.
+  If you haven't already, you will also need to install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) as
+  the provider for your VM.
+* Clone/download this repo and `cd` into the directory.
 * Run `vagrant up`. This should set up your VM in a few minutes.
 * Run `vagrant ssh` in the directory to SSH into the VM.
 * If you need to copy files from/to the VM, you can use the [vagrant-scp](https://github.com/invernizzi/vagrant-scp)

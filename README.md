@@ -41,4 +41,4 @@ Install Vagrant, and run the VM with `vagrant up`!
   
       vagrant box add https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cloud-images/focal/current/focal-server-cloudimg-amd64-vagrant.box --name ubuntu/focal64
 
-* If you don't feel like installing Vagrant, you can also spin up your own Ubuntu VM on your favorite VM provider (VMware/VirtualBox/HyperV) and run the `bootstrap.sh` script. Vagrant abstracts away many provider- and OS-specific nuances, so we recommend using Vagrant.
+* If you don't feel like installing Vagrant, you can also spin up your own Ubuntu VM on your favorite VM provider (VMware/VirtualBox/HyperV) or even cloud provider (AWS EC2?) and run the `bootstrap.sh` script to set up Mininet. We recommend using Vagrant because it abstracts away many provider- and OS-specific nuances, which have historically troubled many students getting set up for the project.

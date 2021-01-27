@@ -37,18 +37,6 @@ Install Vagrant, and run the VM with `vagrant up`!
   to the `"python.analysis.extraPaths"` settings to make code analysis work
   properly.
 
-## Notes
-
-* Because of compatibility issues in `pox`, we are stuck with Python 2 for now.
-  We use the `fangtooth` version of `pox` and version `2.3.0d6` of Mininet.
-* If you are located in China and experience difficulty downloading Vagrant boxes, you can use
-  [Tsinghua University's mirror](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cloud-images/focal/current/).
-  Simply run the following command before executing `vagrant up`:
-  
-      vagrant box add https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cloud-images/focal/current/focal-server-cloudimg-amd64-vagrant.box --name ubuntu/focal64
-
-* If you don't feel like installing Vagrant, you can also spin up your own Ubuntu VM on your favorite VM provider (VMware/VirtualBox/HyperV) or even cloud provider (AWS EC2?) and run the `bootstrap.sh` script to set up Mininet. We recommend using Vagrant because it abstracts away many provider- and OS-specific nuances, which have historically troubled many students getting set up for the project.
-
 ## Using Wireshark
 
 * You might need to install XQuartz (for macOS) or Xming (for Windows) for X11 forwarding.
@@ -62,3 +50,15 @@ Install Vagrant, and run the VM with `vagrant up`!
 * Once the controller is up, you will see the interfaces (e.g. `s1-eth1`) in Wireshark. You can choose any
   of them and view the packets it sends/receives.
 
+
+## Notes
+
+* Because of compatibility issues in `pox`, we are stuck with Python 2 for now.
+  We use the `fangtooth` version of `pox` and version `2.3.0d6` of Mininet.
+* If you are located in China and experience difficulty downloading Vagrant boxes, you can use
+  [Tsinghua University's mirror](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cloud-images/focal/current/).
+  Simply run the following command before executing `vagrant up`:
+  
+      vagrant box add https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cloud-images/focal/current/focal-server-cloudimg-amd64-vagrant.box --name ubuntu/focal64
+
+* If you don't feel like installing Vagrant, you can also spin up your own Ubuntu VM on your favorite VM provider (VMware/VirtualBox/HyperV) or even cloud provider (AWS EC2?) and run the `bootstrap.sh` script to set up Mininet. We recommend using Vagrant because it abstracts away many provider- and OS-specific nuances, which have historically troubled many students getting set up for the project.

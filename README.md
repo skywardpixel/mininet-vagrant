@@ -44,7 +44,7 @@ Install Vagrant, and run the VM with `vagrant up`!
 
       sudo apt install wireshark
 
-* As the Vagrant user, run `sudo xauth add $(xauth list $DISPLAY)` to allow `root` to use X11 Forwarding.
+* As the `vagrant` user, run `sudo xauth add $(xauth list $DISPLAY)` to allow `root` to use X11 Forwarding.
   You might have to do this every time you want to run Wireshark.
 * Run `sudo wireshark &` to run Wireshark in the background.
 * Once the controller is up, you will see the interfaces (e.g. `s1-eth1`) in Wireshark. You can choose any

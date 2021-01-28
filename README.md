@@ -7,7 +7,10 @@ Install Vagrant, and run the VM with `vagrant up`!
 * Install [Vagrant](https://www.vagrantup.com/downloads).
   If you are using Homebrew on macOS, you can simply run `brew install vagrant`.
   If you haven't already, you will also need to install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) as
-  the provider for your VM (technically HyperV should also work).
+  the provider for your VM.
+  
+  **EDIT: Unfortunately the official Ubuntu box only works with VirtualBox.**
+
 * Clone/download this repo and `cd` into the directory.
 * Run `vagrant up`. This should set up your VM in a few minutes.
 * Run `vagrant ssh` in the directory to SSH into the VM.
